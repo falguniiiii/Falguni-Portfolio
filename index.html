@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Falguni Pathak | Web Developer</title>
+    <meta
+      name="description"
+      content="Falguni Pathak is a Computer Science student in Agra building web applications with a focus on thoughtful interfaces and modern web technologies."
+    />
+    <meta property="og:title" content="Falguni Pathak | Web Developer" />
+    <meta
+      property="og:description"
+      content="Computer Science student building web experiences with code, design, and AI."
+    />
+    <meta property="og:type" content="website" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%236E5A8E'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='%23F7F5FA' font-family='serif'%3EF%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <nav aria-label="Main">
+          <a class="brand" href="#top">Falguni Pathak</a>
+          <button class="menu" aria-expanded="false" aria-controls="links">
+            Menu
+          </button>
+          <ul id="links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" id="hero">
+        <div class="wrap">
+          <span class="mono">Web Developer</span>
+          <h1>Falguni Pathak</h1>
+          <h2>Web Developer</h2>
+          <p class="lede">
+            Computer Science student building web experiences with code, design,
+            and AI.
+          </p>
+          <div class="cta">
+            <a class="btn p" href="#work">View Work</a
+            ><a
+              class="btn s"
+              href="https://github.com/falguniiiii"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            ><a
+              class="ul"
+              href="https://www.linkedin.com/in/falguni-pathak-618607352"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </div>
+          <p class="mono meta">
+            <span class="dot" aria-hidden="true"></span>Based in Agra, India ·
+            Available for opportunities
+          </p>
+        </div>
+      </section>
+
+      <section id="work">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2>Selected work</h2>
+            <span class="mono">3 projects</span>
+          </div>
+          <div id="projects"></div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="wrap about">
+          <h2>About</h2>
+          <div>
+            <p>
+              I'm a final-year Computer Science student at Agra College. I build
+              web applications, and the part I care about most is the interface:
+              how it's laid out, how it reads, and how it feels to use.
+            </p>
+            <p>
+              My projects go past the frontend. RoleLens has a React client, an
+              Express API, a MongoDB database and Gemini behind it, and I've
+              deployed projects on Vercel and Render. I'm also interested in how
+              AI can fit into web products in a useful way.
+            </p>
+            <p>
+              I'm still learning, and I'm looking for internships and
+              entry-level roles where I can build real things alongside people
+              who are better than me at it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="wrap exp">
+          <h2>Experience</h2>
+          <div>
+            <span class="mono">Training internship · 2026</span>
+            <h3>ADRDE, DRDO</h3>
+            <p class="mono" style="text-transform: none; margin-bottom: 18px">
+              Aerial Delivery Research &amp; Development Establishment ·
+              Ministry of Defence, Government of India
+            </p>
+            <p>
+              Completed a training internship at ADRDE under the Training of
+              Students of Graduation in Engineering at DRDO Labs/Estt. scheme.
+            </p>
+            <p>
+              I worked in the IT division of a professional R&amp;D environment,
+              with exposure to software development, modern web technologies and
+              cybersecurity concepts, under the guidance of senior scientists
+              and technical officers.
+            </p>
+            <p>
+              It strengthened my skills in React.js, JavaScript, cybersecurity,
+              problem-solving, UI development and working across teams. The
+              project itself is confidential, so I can't share details.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="wrap">
+          <div class="sec-head"><h2>Skills</h2></div>
+          <div class="skills" id="skillgrid"></div>
+        </div>
+      </section>
+
+      <section id="resume">
+        <div class="wrap two">
+          <div>
+            <span class="mono">Resume</span>
+            <h3>Resume</h3>
+            <p>My up-to-date resume.</p>
+            <span id="resumeSlot"></span>
+          </div>
+          <div>
+            <span class="mono">Education &amp; Certificates</span>
+            <h3>B.Tech, Computer Science &amp; Engineering</h3>
+            <p>
+              Faculty of Engineering and Technology, Agra College, Agra.
+              Expected graduation 2027.
+            </p>
+            <p style="margin-top: 18px; color: var(--ink)">
+              <strong style="font-weight: 500"
+                >Training Certificate, ADRDE, DRDO.</strong
+              >
+              Issued for completion of an internship, June–July 2026.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="wrap">
+          <h2>Let's build something useful.</h2>
+          <a class="mail ul" href="mailto:falguni13.fgp@gmail.com"
+            >falguni13.fgp@gmail.com</a
+          >
+          <div class="soc">
+            <a
+              class="ul"
+              href="https://github.com/falguniiiii"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            ><a
+              class="ul"
+              href="https://www.linkedin.com/in/falguni-pathak-618607352"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div>
+          <strong style="font-weight: 500; color: var(--ink)"
+            >Falguni Pathak</strong
+          ><br />Web Developer
+        </div>
+        <div>
+          <a
+            class="ul"
+            href="https://github.com/falguniiiii"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          ><a
+            class="ul"
+            href="https://www.linkedin.com/in/falguni-pathak-618607352"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          ><a class="ul" href="mailto:falguni13.fgp@gmail.com">Email</a
+          ><br /><span class="mono" style="text-transform: none"
+            >© 2026 Falguni Pathak</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
