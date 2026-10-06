@@ -24,14 +24,9 @@ const PROJECTS = [
     github: "https://github.com/falguniiiii/RoleLens",
     live: "https://role-lens-kappa.vercel.app",
     preview: {
-      kind: "schematic",
-      rows: [
-        ["Input", "job description + resume"],
-        ["Match score", "0–100"],
-        ["Questions", "technical + behavioral"],
-        ["Skill gaps", "ranked by severity"],
-        ["Roadmap", "day by day"],
-      ],
+      kind: "image",
+      src: "assets/rolelens.png",
+      alt: "Screenshot of RoleLens, showing a job description and a report with a match score, skill gaps, and a preparation plan.",
     },
   },
 
@@ -46,14 +41,9 @@ const PROJECTS = [
     github: "https://github.com/falguniiiii/quick-scam-link-checker",
     live: "https://quick-scam-link-checker.onrender.com",
     preview: {
-      kind: "schematic",
-      rows: [
-        ["Start", "score 100"],
-        ["http: instead of https:", "−30"],
-        ["Suspicious TLD", "−40"],
-        ["IP-address hostname", "−25"],
-        ["Result", "score + reasons"],
-      ],
+      kind: "image",
+      src: "assets/scam-link-checker.png",
+      alt: "Screenshot of the Quick Scam Link Checker showing a suspicious link analysis and safety score.",
     },
   },
 
@@ -75,16 +65,10 @@ const PROJECTS = [
       "NewsAPI",
     ],
     github: "https://github.com/falguniiiii/Jarvis-Voice-Assistant",
-    live: "",
     preview: {
-      kind: "term",
-      rows: [
-        ["you", '"Jarvis"'],
-        ["you", '"open github"'],
-        ["you", '"weather in [city]"'],
-        ["you", '"take a screenshot"'],
-        ["jarvis", "speaks the reply"],
-      ],
+      kind: "image",
+      src: "assets/jarvis.png",
+      alt: "Screenshot of Jarvis Voice Assistant running in the terminal and recognizing voice commands.",
     },
   },
 ];
@@ -119,16 +103,11 @@ const SKILLS = {
   "Development Tools": [
     "Git",
     "GitHub",
-    "Pycharm",
+    "PyCharm",
     "Jupyter Notebook",
     "Vercel",
     "Render",
     "VS Code",
   ],
-  Backend: [
-    "Node.js",
-    "Express",
-    "Python",
-    "FastAPI"
-  ],
+  Backend: ["Node.js", "Express", "Python", "FastAPI"],
 };
