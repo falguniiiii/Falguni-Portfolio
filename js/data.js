@@ -98,7 +98,6 @@ const SKILLS = {
     "Vite",
     "Responsive Design",
   ],
-  Backend: ["Node.js", "Express", "Python", "FastAPI"],
   "Databases & APIs": [
     "MongoDB",
     "REST APIs",
@@ -125,5 +124,11 @@ const SKILLS = {
     "Vercel",
     "Render",
     "VS Code",
+  ],
+  Backend: [
+    "Node.js",
+    "Express",
+    "Python",
+    "FastAPI"
   ],
 };
